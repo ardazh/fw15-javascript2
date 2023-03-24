@@ -1,4 +1,4 @@
-let data, rest = {
+let data = {
     id : 1,
     name : "Leanne Graham",
     username : "Sincere@april.biz",
@@ -13,5 +13,5 @@ let data, rest = {
     website : "hildegard.org",
 }
 
-[Street, City, ...rest] = [""]
-console.log(rest);
+const { address: { Street, city } } = data;
+console.log(`Street: ${Street}, city: ${city}`);

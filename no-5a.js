@@ -15,8 +15,8 @@ let data = {
 
 const newData = {
     ...data,
-    name: "nama anda",
-    email: "email anda",
-    hobby: "hobi anda",
+    name: "Rifa Ardan A",
+    email: "rifaardan@gmail.com",
+    hobby: "Football, Watching movie, Animation, Variety Show",
 };
 console.log(newData);
