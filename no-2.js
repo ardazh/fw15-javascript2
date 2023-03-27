@@ -19,7 +19,8 @@ arr1.reverse();
 console.log(arr1.toString());         //hasil: e,d,c,b,a,5,4,3,2,1
 
 //3.Array.sort()
-//Method Array.sort() digunakan untuk mengurutkan elemen dari array. Jika method ini dipanggil tanpa argumen, elemen dari array akan diurutkan berdasarkan abjad.
+//Method Array.sort() digunakan untuk mengurutkan elemen dari array. 
+// Jika method ini dipanggil tanpa argumen, elemen dari array akan diurutkan berdasarkan abjad.
 //contoh:
 var arr1 = ["zulkifli","andi","erik","joko","dina"];
 arr1.sort();
@@ -30,7 +31,8 @@ arr2.sort();
 console.log(arr2.toString());         //hasil: 1,11,2,22,3,31,33,44,5,8,,
 
 //4.Array.reverse()
-//Method Array.reverse() digunakan untuk membalikkan urutan dari elemen di dalam array, Method ini akan mengubah array asal.
+//Method Array.reverse() digunakan untuk membalikkan urutan dari elemen di dalam array, 
+// Method ini akan mengubah array asal.
 //contoh:
 var arr1 = [1,2,3,4,5,"a","b","c","d","e"];
 console.log(arr1.toString());         //hasil: 1,2,3,4,5,a,b,c,d,e
@@ -46,7 +48,7 @@ console.log(str.toUpperCase()); // JISOO
 //6.toLowerCase() mengembalikan string yang dikonversi ke huruf kecil.
 //contoh:
 const str = 'Rose';
-console.log(str.toLowerCase()); // Rose
+console.log(str.toLowerCase()); // rose
 
 //7.startsWith() mengecek apakah string diawali dengan karakter yang ditentukan dalam parameter.
 //contoh:

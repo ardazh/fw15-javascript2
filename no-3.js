@@ -11,4 +11,4 @@ function displayNames(names) {
 }
 
 // example usage
-searchName('al', 3, displayNames); // output: ["Alexandra", "Amanda", "Angela"]
+searchName('al', 4, displayNames); 
